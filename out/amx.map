@@ -1,0 +1,456 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           input
+     00000000  _g_SUBRID                          amx
+     00000000  l__BSEG                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__GSFINAL                      
+     00000000  l__GSINIT                       
+     00000000  l__HEADER                       
+     00000000  l__HEADER0                      
+     00000000  l__HEAP                         
+     00000000  l__HOME                         
+     00000000  l__RODATA                       
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000002  _g_STRSRC                          amx
+     00000003  l__INITIALIZED                  
+     00000003  l__INITIALIZER                  
+     00000004  _g_CGTABL                          vdp
+     00000006  _g_VDP_DR                          vdp
+     00000007  _g_VDP_DW                          vdp
+     0000002B  _g_BASRVN                          vdp
+     0000002B  _g_ROMVersion                      vdp
+     0000002D  _g_MSXVER                          vdp
+     0000002E  _g_MSXMID                          vdp
+     00000034  _g_CHAR_16                         vdp
+     00000045  l__DATA                         
+     00000F26  l__CODE                         
+     00004000  s__CODE                         
+     00004F26  s__HOME                         
+     00004F26  s__INITIALIZER                  
+     00004F26  s__RODATA                       
+     00004F29  s__GSFINAL                      
+     00004F29  s__GSINIT                       
+     0000C000  s__DATA                         
+     0000C045  s__INITIALIZED                  
+     0000C048  s__BSEG                         
+     0000C048  s__BSS                          
+     0000C048  s__HEAP                         
+     0000F30F  _g_KANJTABLE                       amx
+     0000F323  _g_DISKVE                          amx
+     0000F325  _g_BREAKV                          amx
+     0000F341  _g_RAMAD0                          amx
+     0000F342  _g_RAMAD1                          amx
+     0000F343  _g_RAMAD2                          amx
+     0000F344  _g_RAMAD3                          amx
+     0000F348  _g_MASTER                          amx
+     0000F37D  _g_BDOS                            amx
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000F380  _g_RDPRIM                          input
+     0000F385  _g_WRPRIM                          input
+     0000F38C  _g_CLPRIM                          input
+     0000F39A  _g_USRTAB                          input
+     0000F3AE  _g_LINL40                          input
+     0000F3AF  _g_LINL32                          input
+     0000F3B0  _g_LINLEN                          input
+     0000F3B1  _g_CRTCNT                          input
+     0000F3B2  _g_CLMLST                          input
+     0000F3B3  _g_TXTNAM                          input
+     0000F3B5  _g_TXTCOL                          input
+     0000F3B7  _g_TXTCGP                          input
+     0000F3B9  _g_TXTATR                          input
+     0000F3BB  _g_TXTPAT                          input
+     0000F3BD  _g_T32NAM                          input
+     0000F3BF  _g_T32COL                          input
+     0000F3C1  _g_T32CGP                          input
+     0000F3C3  _g_T32ATR                          input
+     0000F3C5  _g_T32PAT                          input
+     0000F3C7  _g_GRPNAM                          input
+     0000F3C9  _g_GRPCOL                          input
+     0000F3CB  _g_GRPCGP                          input
+     0000F3CD  _g_GRPATR                          input
+     0000F3CF  _g_GRPPAT                          input
+     0000F3D1  _g_MLTNAM                          input
+     0000F3D3  _g_MLTCOL                          input
+     0000F3D5  _g_MLTCGP                          input
+     0000F3D7  _g_MLTATR                          input
+     0000F3D9  _g_MLTPAT                          input
+     0000F3DB  _g_CLIKSW                          input
+     0000F3DC  _g_CSRY                            input
+     0000F3DD  _g_CSRX                            input
+     0000F3DE  _g_CNSDFG                          input
+     0000F3DF  _g_RG0SAV                          input
+     0000F3E0  _g_RG1SAV                          input
+     0000F3E1  _g_RG2SAV                          input
+     0000F3E2  _g_RG3SAV                          input
+     0000F3E3  _g_RG4SAV                          input
+     0000F3E4  _g_RG5SAV                          input
+     0000F3E5  _g_RG6SAV                          input
+     0000F3E6  _g_RG7SAV                          input
+     0000F3E7  _g_STATFL                          input
+     0000F3E8  _g_TRGFLG                          input
+     0000F3E9  _g_FORCLR                          input
+     0000F3EA  _g_BAKCLR                          input
+     0000F3EB  _g_BDRCLR                          input
+     0000F3EC  _g_MAXUPD                          input
+     0000F3EF  _g_MINUPD                          input
+     0000F3F2  _g_ATRBYT                          input
+     0000F3F3  _g_QUEUES                          input
+     0000F3F5  _g_FRCNEW                          input
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000F3F6  _g_SCNCNT                          input
+     0000F3F7  _g_REPCNT                          input
+     0000F3F8  _g_PUTPNT                          input
+     0000F3FA  _g_GETPNT                          input
+     0000F3FC  _g_CS120                           input
+     0000F401  _g_CS240                           input
+     0000F406  _g_LOW                             input
+     0000F408  _g_HIGH                            input
+     0000F40A  _g_HEADER                          input
+     0000F40B  _g_ASPCT1                          input
+     0000F40D  _g_ASPCT2                          input
+     0000F87F  _g_FNKSTR                          input
+     0000F92A  _g_CLOC                            input
+     0000F92C  _g_CMASK                           input
+     0000F959  _g_QUETAB                          input
+     0000F971  _g_QUEBAK                          input
+     0000F975  _g_VOICAQ                          input
+     0000F9F5  _g_VOICBQ                          input
+     0000FA75  _g_VOICCQ                          input
+     0000FAF5  _g_DPPAGE                          input
+     0000FAF5  _g_RS2IQ                           input
+     0000FAF6  _g_ACPAGE                          input
+     0000FAF7  _g_AVCSAV                          input
+     0000FAF8  _g_EXBRSA                          input
+     0000FAF9  _g_CHRCNT                          input
+     0000FAFA  _g_ROMA                            input
+     0000FAFC  _g_MODE                            input
+     0000FAFD  _g_NORUSE                          input
+     0000FAFE  _g_XSAVE                           input
+     0000FB00  _g_YSAVE                           input
+     0000FB02  _g_LOGOPR                          input
+     0000FB03  _g_RSTMP                           input
+     0000FB03  _g_TOCNT                           input
+     0000FB04  _g_RSFCB                           input
+     0000FB06  _g_RSIQLN                          input
+     0000FB07  _g_MEXBIh                          input
+     0000FB0C  _g_OLDINT                          input
+     0000FB0C  _g_OLDSTT                          input
+     0000FB16  _g_DEVNUM                          input
+     0000FB17  _g_DATCNT                          input
+     0000FB1A  _g_ERRORS                          input
+     0000FB1B  _g_FLAGS                           input
+     0000FB1C  _g_ESTBLS                          input
+     0000FB1D  _g_COMMSK                          input
+     0000FB1E  _g_LSTCOM                          input
+     0000FB1F  _g_LSTMOD                          input
+     0000FB35  _g_PRSCNT                          input
+     0000FB36  _g_SAVSP                           input
+     0000FB38  _g_VOICEN                          input
+     0000FB39  _g_SAVVOL                          input
+     0000FB3B  _g_MCLLEN                          input
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FB3C  _g_MCLPTR                          input
+     0000FB3E  _g_QUEUEN                          input
+     0000FB3F  _g_MUSICF                          input
+     0000FB40  _g_PLYCNT                          input
+     0000FB41  _g_VCBA                            input
+     0000FB66  _g_VCBB                            input
+     0000FB8B  _g_VCBC                            input
+     0000FBB0  _g_ENSTOP                          input
+     0000FBB1  _g_BASROM                          input
+     0000FBB2  _g_LINTTB                          input
+     0000FBCA  _g_FSTPOS                          input
+     0000FBCC  _g_CODSAV                          input
+     0000FBCD  _g_FNKSWI                          input
+     0000FBCE  _g_FNKFLG                          input
+     0000FBD8  _g_ONGSBF                          input
+     0000FBD9  _g_CLIKFL                          input
+     0000FBDA  _g_OLDKEY                          input
+     0000FBE5  _g_NEWKEY                          input
+     0000FBF0  _g_KEYBUF                          input
+     0000FC18  _g_LINWRK                          input
+     0000FC40  _g_PATWRK                          input
+     0000FC48  _g_BOTTOM                          input
+     0000FC4A  _g_HIMEM                           input
+     0000FC4C  _g_TRPTBL                          input
+     0000FC9A  _g_RTYCNT                          input
+     0000FC9B  _g_INTFLG                          input
+     0000FC9C  _g_PADY                            input
+     0000FC9D  _g_PADX                            input
+     0000FC9E  _g_JIFFY                           input
+     0000FCA0  _g_INTVAL                          input
+     0000FCA2  _g_INTCNT                          input
+     0000FCA4  _g_LOWLIM                          input
+     0000FCA5  _g_WINWID                          input
+     0000FCA6  _g_GRPHED                          input
+     0000FCA7  _g_ESCCNT                          input
+     0000FCA8  _g_INSFLG                          input
+     0000FCA9  _g_CSRSW                           input
+     0000FCAA  _g_CSTYLE                          input
+     0000FCAB  _g_CAPST                           input
+     0000FCAC  _g_KANAST                          input
+     0000FCAD  _g_KANAMD                          input
+     0000FCAE  _g_FLBMEM                          input
+     0000FCAF  _g_SCRMOD                          input
+     0000FCB0  _g_OLDSCR                          input
+     0000FCB1  _g_CASPRV                          input
+     0000FCB2  _g_BRDATR                          input
+     0000FCB3  _g_GXPOS                           input
+     0000FCB5  _g_GYPOS                           input
+     0000FCB7  _g_GRPACX                          input
+     0000FCB9  _g_GRPACY                          input
+     0000FCBB  _g_DRWFLG                          input
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FCBC  _g_DRWSCL                          input
+     0000FCBD  _g_DRWANG                          input
+     0000FCC1  _g_EXPTBL                          input
+     0000FCC1  _g_MNROM                           input
+     0000FCC5  _g_SLTTBL                          input
+     0000FCC9  _g_SLTATR                          input
+     0000FD09  _g_SLTWRK                          input
+     0000FD89  _g_PROCNM                          input
+     0000FFE7  _g_RG08SAV                         input
+     0000FFE8  _g_RG09SAV                         input
+     0000FFE9  _g_RG10SAV                         input
+     0000FFEA  _g_RG11SAV                         input
+     0000FFEB  _g_RG12SAV                         input
+     0000FFEC  _g_RG13SAV                         input
+     0000FFED  _g_RG14SAV                         input
+     0000FFEE  _g_RG15SAV                         input
+     0000FFEF  _g_RG16SAV                         input
+     0000FFF0  _g_RG17SAV                         input
+     0000FFF1  _g_RG18SAV                         input
+     0000FFF2  _g_RG19SAV                         input
+     0000FFF3  _g_RG20SAV                         input
+     0000FFF4  _g_RG21SAV                         input
+     0000FFF5  _g_RG22SAV                         input
+     0000FFF6  _g_RG23SAV                         input
+     0000FFF7  _g_MINROM                          input
+     0000FFF8  _g_SVFFF8                          input
+     0000FFFA  _g_RG25SAV                         input
+     0000FFFB  _g_RG26SAV                         input
+     0000FFFC  _g_RG27SAV                         input
+     0000FFFD  _g_SVFFFD                          input
+     0000FFFF  _g_SLTSL                           input
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004000    00000F26 =        3878. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004000  _g_FirstAddr                       crt0
+     00004000  _g_HeaderAddr                      crt0
+     00004000  crt0_rom_header                    crt0
+     00004018  _g_AppSignature                    crt0
+     00004027  crt0_p1_to_p2                      crt0
+     0000405A  _main                              amx
+     000040F8  _g_RobotPattern                    amx
+     00004118  _VDP_SetModeFlag                   vdp
+     00004141  _VDP_SetModeText1                  vdp
+     00004158  _VDP_SetModeMultiColor             vdp
+     00004181  _VDP_SetModeGraphic1               vdp
+     000041B2  _VDP_SetModeGraphic2               vdp
+     000041E4  _VDP_ClearVRAM                     vdp
+     0000421F  _VDP_WriteVRAM_16K                 vdp
+     00004256  _VDP_FillVRAM_16K                  vdp
+     0000427B  _VDP_ReadVRAM_16K                  vdp
+     000042B1  _VDP_Peek_16K                      vdp
+     000042C6  _VDP_Poke_16K                      vdp
+     000042DE  _VDP_SetModeText2                  vdp
+     000042FE  _VDP_SetModeGraphic3               vdp
+     00004330  _VDP_SetModeGraphic4               vdp
+     00004350  _VDP_SetModeGraphic5               vdp
+     00004370  _VDP_SetModeGraphic6               vdp
+     00004390  _VDP_SetModeGraphic7               vdp
+     000043B0  _VDP_ReadStatus                    vdp
+     000043C4  _VDP_SetAdjustOffset               vdp
+     000043CE  _VDP_SetPalette                    vdp
+     000043DE  _VDP_SetPaletteEntry               vdp
+     000043ED  _VDP_WriteVRAM_128K                vdp
+     00004430  _VDP_FillVRAM_128K                 vdp
+     0000446B  _VDP_ReadVRAM_128K                 vdp
+     000044B3  _VDP_Poke_128K                     vdp
+     000044DE  _VDP_Peek_128K                     vdp
+     00004506  _VDP_CommandWait                   vdp
+     0000451F  _VPD_CommandSetupR32               vdp
+     00004552  _VPD_CommandSetupR36               vdp
+     0000457D  _VPD_CommandWriteLoop              vdp
+     000045A5  _VDP_SetHorizontalOffset           vdp
+     000045C7  _VDP_Initialize                    vdp
+     000045EE  _VDP_SetMode                       vdp
+     00004729  _VDP_GetVersion                    vdp
+     00004778  _VDP_RegWrite                      vdp
+     00004784  _VDP_RegWriteBak                   vdp
+     00004797  _VDP_RegWriteBakMask               vdp
+     000047B6  _VDP_ReadDefaultStatus             vdp
+     000047B9  _VDP_SetPage                       vdp
+     000047C7  _VDP_SetLayoutTable                vdp
+     00004836  _VDP_SetColorTable                 vdp
+     000048CF  _VDP_SetPatternTable               vdp
+     0000492F  _VDP_SetSpriteAttributeTable       vdp
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004000    00000F26 =        3878. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000049DE  _VDP_SetSpritePatternTable         vdp
+     000049FD  _VDP_LoadSpritePattern             vdp
+     00004A2D  _VDP_SetSpriteSM1                  vdp
+     00004A70  _VDP_SetSprite                     vdp
+     00004AAB  _VDP_SetSpriteExMultiColor         vdp
+     00004B0F  _VDP_SetSpriteExUniColor           vdp
+     00004B70  _VDP_SetSpritePosition             vdp
+     00004BA4  _VDP_SetSpritePositionX            vdp
+     00004BBC  _VDP_SetSpritePositionY            vdp
+     00004BD3  _VDP_SetSpritePattern              vdp
+     00004BEC  _VDP_SetSpriteColorSM1             vdp
+     00004C06  _VDP_SetSpriteUniColor             vdp
+     00004C23  _VDP_SetSpriteMultiColor           vdp
+     00004C41  _VDP_SetSpriteData                 vdp
+     00004C5D  _VDP_DisableSpritesFrom            vdp
+     00004C6E  _VDP_SetBlinkTile                  vdp
+     00004D17  _VDP_LoadPattern_GM2               vdp
+     00004D8D  _VDP_LoadColor_GM2                 vdp
+     00004E03  _VDP_WriteLayout_GM2               vdp
+     00004E6E  _VDP_FillLayout_GM2                vdp
+     00004EC4  _Input_Detect                      input
+     00004EDF  _Joystick_Read                     input
+     00004EF0  _Keyboard_Read                     input
+     00004EFB  _Keyboard_IsKeyPressed             input
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        00004F26    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            00004F29    00000000 =           0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004F29  _g_LastAddr                        crt0
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    00000045 =          69. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C000  _g_HeapStartAddress                crt0
+     0000C002  _g_VDP_REGSAV                      vdp
+     0000C01E  _g_VDP_Data                        vdp
+     0000C020  _g_VDP_Command                     vdp
+     0000C02F  _g_VDP_Sprite                      vdp
+     0000C033  _g_ScreenLayoutLow                 vdp
+     0000C035  _g_ScreenColorLow                  vdp
+     0000C037  _g_ScreenPatternLow                vdp
+     0000C039  _g_SpriteAttributeLow              vdp
+     0000C03B  _g_SpritePatternLow                vdp
+     0000C03D  _g_SpriteColorLow                  vdp
+     0000C03F  _g_ScreenLayoutHigh                vdp
+     0000C040  _g_ScreenColorHigh                 vdp
+     0000C041  _g_ScreenPatternHigh               vdp
+     0000C042  _g_SpriteAttributeHigh             vdp
+     0000C043  _g_SpritePatternHigh               vdp
+     0000C044  _g_SpriteColorHigh                 vdp
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZED                        0000C045    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C045  _g_RobotX                          amx
+     0000C046  _g_RobotY                          amx
+     0000C047  _g_VDPInitilized                   vdp
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+
+Files Linked                              [ module(s) ]
+
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/crt0_rom32.rel
+                                          [ crt0 ]
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/amx.rel
+                                          [ amx ]
+
+
+Libraries Linked                          [ object file ]
+
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/msxgl.lib
+                                          [ vdp.rel ]
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/msxgl.lib
+                                          [ input.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+
+User Base Address Definitions
+
+_CODE = 0x4000
+_DATA = 0xc000
+
+

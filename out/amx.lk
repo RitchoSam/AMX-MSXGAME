@@ -1,0 +1,12 @@
+-mjwx
+-i D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/amx.ihx
+-b _CODE = 0x4000
+-b _DATA = 0xc000
+-k D:\Ritcho\Desenv\MSX\MSXgl\tools/sdcc/lib/z80
+-k D:\Ritcho\Desenv\MSX\MSXgl\tools/sdcc/bin\..\lib\z80
+-l D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/msxgl.lib
+-l z80
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/crt0_rom32.rel
+D:\Ritcho\Desenv\MSX\MSXgl\projects\AMX/out/amx.rel
+
+-e

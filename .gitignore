@@ -1,0 +1,8 @@
+   build/
+   *.ihx
+   *.rom
+   *.bin
+   *.map
+   *.lst
+   *.sym
+   *.rel
